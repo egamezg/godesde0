@@ -6,8 +6,6 @@ func DevuelveEntera() int {
 	return Enteras
 }
 
-type Coche struct {
-	color  string
-	anno   int
-	puerta int
+func InttoInt32(entero int) int32 {
+	return int32(entero)
 }
